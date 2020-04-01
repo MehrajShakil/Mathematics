@@ -17,6 +17,18 @@ const ll mod = 1000003;
 const ll MAXN = 1000001;
 
 //Fermat's little Theorem says : (a/b) mod m == ((a mod m ) * ((b^m-2) mod m)) mod m when m is prime
+/*
+ proof:
+=> (a^m - a = x*m)%m
+=> (a^m - a) %m = (x*m)%m
+=> (a^m %m  - a%m ) %m = (x%m * m%m) %m
+=> a^m %m - a%m = 0
+=> a^m %m = a%m
+=> (a^m %m = a%m) a^-2
+=> a^m-2 %m = a^-1 %m
+
+*/
+
 ll Factorial[MAXN];
 ll inverseOfFactorial[MAXN];
 

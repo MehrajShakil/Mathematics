@@ -40,6 +40,9 @@ void primeFactor(ll x, vector<pair<ll, ll>>& factors)
             factors.push_back({p, freq});
         }
     }
+    if(x>1){
+           factors.push_back({x, 1});
+    }
 }
 
 bool IsPrime(ll n,ll x)

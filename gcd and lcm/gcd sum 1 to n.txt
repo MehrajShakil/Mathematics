@@ -2,7 +2,7 @@
 GCD sum function : 
 
 1.
-ans =i=1N GCD(i,N) 
+ans = sum [ GCD(i,N) ] where i =1 , 2 ,3 ......n 
 
 Brute Force approach :
 

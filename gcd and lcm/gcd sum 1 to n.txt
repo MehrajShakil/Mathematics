@@ -1,1 +1,44 @@
 
+GCD sum function : 
+
+1.
+ans =i=1N GCD(i,N) 
+
+Brute Force approach :
+
+for(i=1 to n){
+ans+=gcd(i,n);
+}
+
+Complexity for this .
+O(q*nlogn)
+Where q is the number of queries.
+Is there any better solution ?
+Yes.
+It can be solved O(q*sqrt(n)).
+So,let's discuss it……..
+Let n=12;
+
+Observation #1 : GCD(i,n) = one of the divisors of n.
+
+GCD(1,12)=1        GCD(7,12)=1 
+GCD(2,12)=2        GCD(8,12)=4 
+GCD(3,12)=3        GCD(9,12)=3 
+GCD(4,12)=4        GCD(10,12)=2 
+GCD(5,12)=1        GCD(11,12)=1 
+GCD(6,12)=6        GCD(12,12)=12 
+
+Observation #2 : instead of running a loop from 1 to n, we can check for any divisor d of n.
+How many numbers i are there with gcd(i,n)=d.
+
+d(12) = 1, 2, 3, 4, 6, 12.
+
+ans = 1*4 + 2*2 + 3*2 + 4*2 + 6*1 + 12*1   
+The bold number are the divisor and we multiple  d*xd. where xd  number of occurring din gcd of 1 to n.
+
+Let x1, x2,x3,.....xm are the different integers from 1 to n such that their gcd with n equal to d.
+
+An observation   gcd(xi,n) = d.
+                           gcd(xi/d,n/d) = 1. (lemma of gcd).
+   So, we count the coprime of n/d using phi.
+   Then , xd = phi[n/d].

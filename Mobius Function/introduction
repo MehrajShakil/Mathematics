@@ -1,7 +1,26 @@
 
 meu(n) = 0 , n has a square factor.
-meu(n) = (-1)^r , n is a product of distinct primes.
+meu(n) = (-1)^r , n is a product r primes.
 
 n       1  2   3   4    5  6   7   8   9   10   11   12   13  14  15  16   17  18  19  20  21  22  23  24  25  26  27  28  29  30
-meu(n)  1 -1  -1   0   -1  1  -1   0   0   1    -1   -1   -1  1    1   0   -1  -1  -1  -1  1   1   -1  1   0   1   -1  -1  -1  -1
+meu(n)  1 -1  -1   0   -1  1  -1   0   0   1    -1    0   -1   1   1   0   -1   0  -1   0   1   1  -1   0   0   1  0   1  -1   1
 
+cool property of mobius function : 
+
+  sum of mue(d) = 0 where d|n
+  
+  eg::1
+  let n = 5
+  d(5) = 1,5
+  meu(1) + meu(5) = 1 + ( -1 ) = 0
+  
+  eg::2
+  let n = 12
+  d(12) = 1,2,3,4,6,12
+  ///incomplete(next day in sha allah)
+  = meu(1) + meu(2) + meu(3) + meu(4) + meu(6) + meu(12)
+  =  1     +  (-1)  +  (-1)  +  0     +   1    +  0 
+  =   2 - 2
+  = 0
+  
+  

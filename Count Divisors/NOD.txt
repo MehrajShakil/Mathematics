@@ -1,1 +1,15 @@
+We know a number greater than 1 can be represented as product of prime numbers.
+
+that is n = p1^e1 * p2^e2 * p3^e3 ...............pk^ek.
+
+nod(n) = (e1+1)*(e2+1)*(e3+1)........(ek+1)
+
+let n = 12
+d(n) = 1 ,2 ,3, 4, 6, 12
+     = 6
+     
+ nod(12) = 2^2 * 3^1
+         = (2+1) * (1+1)
+         = 3*2
+         = 6
 

@@ -1,7 +1,7 @@
 
 we know from multiplicative function f(m*n) = f(m) * f(n) when gcd(m,n)=1.
 
-Now we hate to find sum of divisors of n.
+Now we have to find sum of divisors of n.
 it is represented as sigma(n).
 
 so , sigma(n) = (d1 + d2 + d3 + .....dk).

@@ -1,1 +1,30 @@
+   From Euler's Theorem we know that,
+              a^ϕ(m) ≡ 1 mod m.
+   ϕ is the euler's totient function. gcd(a,m) = 1 for exist modinv.
+   
+   Fermat's little theorem:
+   
+        a^m−1 ≡ 1 mod m
+        a^m-1 * a^-1 ≡ a^-1 mod m ( multiply a^-1 both side)
+        a^m-2 ≡ a^-1 mod m
+    Here m is prime.
+    
+    When m is not prime but gcd(a,m) = 1. Then a^-1 %m like 
+    
+    a^ϕ(m) ≡ 1 mod m.
+    a^ϕ(m) * a^-1 ≡ a^-1 mod m. (multiply a^-1 both side)
+    a^ϕ(m)-1 ≡ a^-1 mod m.
+    
+    Now a^-1 can compute uing bigmod in O(logm) times.
+    
+    
+    
+    
+    
+    
+     
 
+
+   
+   
+   

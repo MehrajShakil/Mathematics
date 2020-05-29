@@ -1,4 +1,9 @@
 
  A modular multiplicative inverse of an integer a is an integer x such that a.x congruent to 1 mudular some of mudulas m.To write
  it in a formal way : we want to find an intger x so that,
-                                                        a⋅x ≡ 1 mod m. 
+                                                        a⋅x ≡ 1 mod m.  where gcd(a,m) = 1.
+   1. Finding modular inverse using extended euclidean algorithm.
+   2. Finding modular inverse using Binary Exponentiation.
+   
+ #Reference : cp algorithm.  
+   

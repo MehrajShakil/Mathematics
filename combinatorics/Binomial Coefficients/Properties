@@ -1,0 +1,15 @@
+
+ 1. Symmetry rule : 
+ 
+    nCr = nCn-r.
+    
+ 2. Sum over K :
+    
+    int sum = 0;
+    for ( int r = 0 ; r<=k ; ++r ) {
+        sum = sum + nCr.
+    }
+    
+    here sum is equivalent to 2^n.
+    
+ 3.    

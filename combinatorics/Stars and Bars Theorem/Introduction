@@ -1,1 +1,35 @@
 
+ 1. What is stars and bars ?
+ sol : Stars and bars is a mathematical tehchnique for solving certain combinatorial probelms.It occurs whenever you want to count
+       the number of ways to group identical objects.
+       
+ Problem we can solve with stars and bars.
+ 1. How many non-negative integer solution exist for this equation ?
+       X + Y = 10.
+       ( 0 , 10 ) , ( 1 , 9 ) , ( 2 , 8 ) , ( 3 , 7 ) , ( 4 , 6 ) , ( 5 , 5 ) , ( 6 , 4 ) , ( 7 , 3 ) , ( 8 , 2 ) , ( 9 , 1 ) , ( 10 , 0 )
+       way = 11.
+       *|*********
+       11C1 = 11.
+       
+       but when X + Y + Z  = 3 then what is the solution?
+       sol : 
+             0 1 2
+             0 0 3
+             0 2 1
+             0 3 0
+             3 0 0
+             2 0 1
+             2 1 0
+             1 0 2
+             1 2 0
+             1 1 1
+             
+             5C2 = 10
+             
+             So Total number of solution : (n+k-1)C(k-1) 
+       
+ 2. How many n digit number can be formed, where the digits are in non-decreasing order and each digit is from 0 to 9. 
+ sol : 
+       
+       
+ 

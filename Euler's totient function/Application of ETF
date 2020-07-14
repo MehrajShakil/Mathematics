@@ -1,0 +1,9 @@
+The most famous and important property of Euler's totient function is expressed in Euler's theorem:
+
+a^phi(m) % m = 1.
+Here a and m are co-prime.
+
+In particular case when m is prime, Euler's theorem turns into Fermat's little theorem,
+a ^ ( m - 1 ) % m = 1.
+a ^ ( m - 1 ) congrunce a ^ ( n % phi ( m ) ) % m.
+

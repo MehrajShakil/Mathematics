@@ -28,3 +28,11 @@ int main ( ){
      }
 	
 }
+
+/* 
+
+divisor sum property says ,
+if d(n) are d1 , d2 , d3 ......dk than
+phi(d1 ) + phi(d2) + phi(d3) + .........+ phi(dk) = n.
+
+*/

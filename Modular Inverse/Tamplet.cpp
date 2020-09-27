@@ -20,7 +20,7 @@ struct Combinatorics{
         for(int i = 0;i < N;i++)inv[i] = BigMod(fac[i],MOD-2,MOD);
     }
  
-    LL com(LL n,LL r)
+    ll com(ll n,ll r)
     {
         if(n < r)return 0;
         ll u = fac[n];

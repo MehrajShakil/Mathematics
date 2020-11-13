@@ -1,5 +1,3 @@
-Src : fsshakkhor ( CF ) vaiya.
-
 struct Combinatorics{
     ll fac[N],inv[N];
 
@@ -30,4 +28,8 @@ struct Combinatorics{
     ll FAC ( ll n ){ /// added.
        return fac[n];
     }
+    ll INV ( ll n ){
+       return inv[n];
+    }
+
 }combi;

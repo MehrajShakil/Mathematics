@@ -14,5 +14,7 @@
 
 <em> 6. Sigma_Function: </em> https://github.com/MehrajShakil/Mathematics/blob/master/Count%20Divisors/Sigma_Function.cpp
 
+<em> 7. sod of first n natural numbers: </em> https://github.com/MehrajShakil/problem-solve-from-Morass-blog/blob/master/Divisors/INVDIV%20-%20Smallest%20Inverse%20Sum%20of%20Divisors.cpp
+
 
 
